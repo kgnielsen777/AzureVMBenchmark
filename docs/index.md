@@ -31,4 +31,4 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 
 ---
 
-*Powered by [Azure VM Benchmark Platform](https://github.com/kgnielsen777/AzureVMBenchmarkBackend)*
+*Powered by Azure VM Benchmark Platform*

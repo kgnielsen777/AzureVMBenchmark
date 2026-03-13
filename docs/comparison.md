@@ -1,7 +1,7 @@
     # Azure VM Performance Comparison
     
-    **Generated:** 2026-03-13 18:08:04 UTC  
-    **Total VMs Tested:** 1
+    **Generated:** 2026-03-13 19:34:31 UTC  
+    **Total VMs Tested:** 2
     
     ## Executive Summary
     
@@ -9,10 +9,10 @@
     
     | Category | VM SKU | Score | Details |
     |----------|--------|-------|---------|
-    | **Raw Performance** | Standard_D2s_v4 | 29917.73981 iter/sec | 74.46 USD/month |
-    | **Price-Performance** | Standard_D2s_v4 | 293311.17 iter/sec/$ | Best cost efficiency |
-    | **Scaling Efficiency** | Standard_D2s_v4 | 64.5% | Multi-core scaling |
-    | **Most Affordable** | Standard_D2s_v4 | 74.46 USD/month | 29917.73981 iter/sec |
+    | **Raw Performance** | Standard_D2s_v5 | 36242.831701 iter/sec | 74.46 USD/month |
+    | **Price-Performance** | Standard_D2s_v5 | 355321.88 iter/sec/$ | Best cost efficiency |
+    | **Scaling Efficiency** | Standard_D2s_v4 | 72.8% | Multi-core scaling |
+    | **Most Affordable** | Standard_D2s_v5 | 74.46 USD/month | 36242.831701 iter/sec |
     
     ## Performance Comparison
     
@@ -20,7 +20,8 @@
     
     | Rank | VM SKU | CoreMark Score | Single-Core | Scaling Efficiency |
     |------|--------|----------------|-------------|-------------------|
-| 1 | Standard_D2s_v4 | 29917.73981 | 23178.552113 | 64.5% |    
+| 1 | Standard_D2s_v5 | 36242.831701 | 27862.914461 | 65% |
+| 2 | Standard_D2s_v4 | 30022.187373 | 20617.139715 | 72.8% |    
     
     ## Price-Performance Analysis
     
@@ -28,13 +29,29 @@
     
     | Rank | VM SKU | Iter/sec per $ | Monthly Cost | Performance |
     |------|--------|----------------|--------------|-------------|
-| 1 | Standard_D2s_v4 | 293311.17 | $74.46 | 29917.73981 iter/sec |    
+| 1 | Standard_D2s_v5 | 355321.88 | $74.46 | 36242.831701 iter/sec |
+| 2 | Standard_D2s_v4 | 294335.17 | $74.46 | 30022.187373 iter/sec |    
     
     ### Performance per /month
     
     | VM SKU | Iterations/sec per /month | Monthly Cost |
     |--------|------------------------------|--------------|
-| Standard_D2s_v4 | 40179.61 | $74.46 |    
+| Standard_D2s_v5 | 48674.23 | $74.46 |
+| Standard_D2s_v4 | 40319.89 | $74.46 |    
+    
+    ## Series Comparison
+    
+    ### Performance by VM Series
+    
+    | Series | Avg Multi-Core Score | Avg Price/month | Avg Price-Performance |
+    |--------|---------------------|-----------------|----------------------|
+|  | 33133 | $74.46 | 324828.53 |    
+    
+    ### Performance by Generation
+    
+    | Version | Avg Multi-Core Score | Avg Price/month | Avg Price-Performance |
+    |---------|---------------------|-----------------|----------------------|
+|  | 33133 | $74.46 | 324828.53 |    
     
     ## Visualizations
     
@@ -51,21 +68,21 @@
     ## Recommendations
     
     ### For Raw Performance
-    **Choose:** Standard_D2s_v4
-    - Highest CoreMark score: 29917.73981 iterations/sec
+    **Choose:** Standard_D2s_v5
+    - Highest CoreMark score: 36242.831701 iterations/sec
     - Monthly cost: $74.46
     - Best for: compute-intensive workloads requiring maximum performance
     
     ### For Cost Efficiency
-    **Choose:** Standard_D2s_v4
-    - Best price-performance ratio: 293311.17 iter/sec per $/hour
+    **Choose:** Standard_D2s_v5
+    - Best price-performance ratio: 355321.88 iter/sec per $/hour
     - Monthly cost: $74.46
     - Best for: budget-conscious deployments with good performance needs
     
     ### For Budget Optimization
-    **Choose:** Standard_D2s_v4
+    **Choose:** Standard_D2s_v5
     - Lowest monthly cost: $74.46
-    - Performance: 29917.73981 iterations/sec
+    - Performance: 36242.831701 iterations/sec
     - Best for: development, testing, or low-traffic workloads
     
     ## Methodology

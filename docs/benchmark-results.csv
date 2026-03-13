@@ -1,2 +1,3 @@
 "VmSku","Series","Version","Location","SingleCoreScore","MultiCoreScore","ScalingEfficiency","CoreMarkPerVcpu","HourlyPrice","MonthlyCost","Currency","SingleCorePerDollar","MultiCorePerDollar","MultiCorePerMonthly100","RunId","Timestamp"
-"Standard_D2s_v4",,,"SwedenCentral","23178.552113","29917.73981","0.645","14958.87","0.102","74.46","USD","227240.71","293311.17","40179.61","tmur226y2","3/13/2026 5:57:59 PM"
+"Standard_D2s_v5",,,"SwedenCentral","27862.914461","36242.831701","0.65","18121.42","0.102","74.46","USD","273165.83","355321.88","48674.23","kxnlkz981","3/13/2026 7:32:33 PM"
+"Standard_D2s_v4",,,"SwedenCentral","20617.139715","30022.187373","0.728","15011.09","0.102","74.46","USD","202128.82","294335.17","40319.89","akdrymtay","3/13/2026 7:23:30 PM"

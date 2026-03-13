@@ -25,9 +25,30 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 
 ## Latest Results
 
-<!-- RESULTS_START -->
-*See the [full comparison report](comparison) for current results.*
-<!-- RESULTS_END -->
+<!-- INDEX_START -->
+    ## Benchmark Results
+    
+    **Last Updated:** 2026-03-13 19:34:31 UTC
+    
+    ### Performance Leaders
+    
+#### Top 5 by Raw Performance
+
+| Rank | VM SKU | CoreMark Score | Monthly Cost |
+|------|--------|----------------|--------------|
+| 1 | Standard_D2s_v5 | 36242.831701 | $74.46 |
+| 2 | Standard_D2s_v4 | 30022.187373 | $74.46 |
+
+#### Top 5 by Cost Efficiency
+
+| Rank | VM SKU | Iter/sec per $ | Monthly Cost |
+|------|--------|----------------|--------------|
+| 1 | Standard_D2s_v5 | 355321.88 | $74.46 |
+| 2 | Standard_D2s_v4 | 294335.17 | $74.46 |
+
+[View Full Report](docs/comparison.md)
+
+<!-- INDEX_END -->
 
 ---
 

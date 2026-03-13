@@ -12,6 +12,7 @@ Independent performance benchmarks for Azure Virtual Machines using [EEMBC CoreM
 - [Full Comparison Report](comparison) — Detailed performance rankings and analysis
 - [Interactive Charts](charts/performance.html) — Visual performance and price-performance comparisons
 - [Raw Data (CSV)](benchmark-results.csv) — Download benchmark data for your own analysis
+- [Methodology & How to Read Results](methodology) — What we test, how we test, and what the numbers mean
 
 ## Methodology
 
@@ -28,7 +29,7 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 <!-- INDEX_START -->
     ## Benchmark Results
     
-    **Last Updated:** 2026-03-13 19:34:31 UTC
+    **Last Updated:** 2026-03-13 21:54:51 UTC
     
     ### Performance Leaders
     
@@ -36,15 +37,21 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 
 | Rank | VM SKU | CoreMark Score | Monthly Cost |
 |------|--------|----------------|--------------|
-| 1 | Standard_D2s_v5 | 36242.831701 | $74.46 |
-| 2 | Standard_D2s_v4 | 30022.187373 | $74.46 |
+| 1 | Standard_D2s_v6 | 49437.653565 | $78.11 |
+| 2 | Standard_E2s_v6 | 49200.532036 | $102.93 |
+| 3 | Standard_D2as_v6 | 47236.660329 | $70.81 |
+| 4 | Standard_E2as_v6 | 47195.784135 | $93.44 |
+| 5 | Standard_E2as_v4 | 38333.760672 | $97.82 |
 
 #### Top 5 by Cost Efficiency
 
 | Rank | VM SKU | Iter/sec per $ | Monthly Cost |
 |------|--------|----------------|--------------|
-| 1 | Standard_D2s_v5 | 355321.88 | $74.46 |
-| 2 | Standard_D2s_v4 | 294335.17 | $74.46 |
+| 1 | Standard_D2as_v6 | 486975.88 | $70.81 |
+| 2 | Standard_D2s_v6 | 462034.15 | $78.11 |
+| 3 | Standard_D2as_v5 | 409798.61 | $67.16 |
+| 4 | Standard_D2as_v4 | 371302.26 | $74.46 |
+| 5 | Standard_E2as_v6 | 368717.06 | $93.44 |
 
 [View Full Report](docs/comparison.md)
 

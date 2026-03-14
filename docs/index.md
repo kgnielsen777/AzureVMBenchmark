@@ -29,7 +29,7 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 <!-- INDEX_START -->
     ## Benchmark Results
     
-    **Last Updated:** 2026-03-14 18:23:15 UTC
+    **Last Updated:** 2026-03-14 21:41:43 UTC
     
     ### Performance Leaders
     
@@ -39,9 +39,9 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 |------|--------|----------------|--------------|
 | 1 | Standard_F2as_v6 | 62022.939592 | $106.58 |
 | 2 | Standard_D2s_v6 | 49437.653565 | $78.11 |
-| 3 | Standard_E2s_v6 | 49200.532036 | $102.93 |
-| 4 | Standard_D2as_v6 | 47236.660329 | $70.81 |
-| 5 | Standard_E2as_v6 | 47195.784135 | $93.44 |
+| 3 | Standard_L2s_v4 | 49409.173136 | $132.86 |
+| 4 | Standard_E2s_v6 | 49200.532036 | $102.93 |
+| 5 | Standard_L2as_v4 | 47303.713503 | $130.67 |
 
 #### Top 5 by Cost Efficiency
 

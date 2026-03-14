@@ -1,0 +1,49 @@
+{
+  "results": [
+    {
+      "pricing": {
+        "monthly": 132.86,
+        "hourly": 0.182,
+        "currency": "USD"
+      },
+      "performance": {
+        "scalingEfficiency": 87.8,
+        "singleCore": {
+          "score": 28143.249138,
+          "perDollar": 154633.24
+        },
+        "multiCore": {
+          "score": 49409.173136,
+          "perDollar": 271478.97
+        }
+      },
+      "version": "v4",
+      "vmSku": "Standard_L2s_v4"
+    },
+    {
+      "pricing": {
+        "monthly": 130.67,
+        "hourly": 0.179,
+        "currency": "USD"
+      },
+      "performance": {
+        "scalingEfficiency": 71.1,
+        "singleCore": {
+          "score": 33269.566664,
+          "perDollar": 185863.5
+        },
+        "multiCore": {
+          "score": 47303.713503,
+          "perDollar": 264266.56
+        }
+      },
+      "version": "v4",
+      "vmSku": "Standard_L2as_v4"
+    }
+  ],
+  "metadata": {
+    "count": 2,
+    "generated": "2026-03-14T21:41:39.4070127Z",
+    "series": "L-series"
+  }
+}

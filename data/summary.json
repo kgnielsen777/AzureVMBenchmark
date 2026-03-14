@@ -1,31 +1,101 @@
 {
+  "metadata": {
+    "generated": "2026-03-14T21:41:39.4070127Z",
+    "totalVms": 20
+  },
   "aggregates": {
-    "scoreRange": {
-      "min": 29746.422367,
-      "max": 62022.939591999995
-    },
-    "averageScore": 40278.0,
+    "averageScore": 39730.0,
     "priceRange": {
       "min": 56.79,
-      "max": 106.58
+      "max": 132.86
     },
-    "averageMonthlyCost": 82.18,
-    "averagePricePerformance": 365011.36
+    "averageMonthlyCost": 87.53,
+    "scoreRange": {
+      "min": 26008.651202,
+      "max": 62022.939591999995
+    },
+    "averagePricePerformance": 341946.31
   },
-  "metadata": {
-    "totalVms": 16,
-    "generated": "2026-03-14T18:22:37.2910958Z"
+  "comparisons": {
+    "byVersion": [
+      {
+        "count": 3,
+        "avgCost": 63.56,
+        "avgScore": 34644.0,
+        "version": "v2",
+        "avgPricePerf": 404667.15
+      },
+      {
+        "count": 2,
+        "avgCost": 86.14,
+        "avgScore": 26718.0,
+        "version": "v3",
+        "avgPricePerf": 231499.48
+      },
+      {
+        "count": 6,
+        "avgCost": 101.35,
+        "avgScore": 38942.0,
+        "version": "v4",
+        "avgPricePerf": 286383.47
+      },
+      {
+        "count": 4,
+        "avgCost": 81.94,
+        "avgScore": 37122.0,
+        "version": "v5",
+        "avgPricePerf": 338035.84
+      },
+      {
+        "count": 5,
+        "avgCost": 90.37,
+        "avgScore": 51019.0,
+        "version": "v6",
+        "avgPricePerf": 418296.34
+      }
+    ],
+    "bySeries": [
+      {
+        "count": 2,
+        "avgCost": 59.93,
+        "avgScore": 37092.0,
+        "series": "B-series",
+        "avgPricePerf": 453668.64
+      },
+      {
+        "count": 7,
+        "avgCost": 73.42,
+        "avgScore": 38105.0,
+        "series": "D-series",
+        "avgPricePerf": 379491.43
+      },
+      {
+        "count": 7,
+        "avgCost": 96.57,
+        "avgScore": 37886.0,
+        "series": "E-series",
+        "avgPricePerf": 286846.39
+      },
+      {
+        "count": 2,
+        "avgCost": 88.7,
+        "avgScore": 45885.0,
+        "series": "F-series",
+        "avgPricePerf": 365739.4
+      },
+      {
+        "count": 2,
+        "avgCost": 131.76,
+        "avgScore": 48356.0,
+        "series": "L-series",
+        "avgPricePerf": 267872.76
+      }
+    ]
   },
   "bestPerformers": {
-    "pricePerformance": {
-      "monthlyCost": 56.79,
-      "ratio": 489500.63,
-      "category": "Best cost efficiency",
-      "vmSku": "Standard_B2as_v2"
-    },
     "mostAffordable": {
-      "score": 38083.148821,
       "monthlyCost": 56.79,
+      "score": 38083.148821,
       "category": "Most budget-friendly",
       "vmSku": "Standard_B2as_v2"
     },
@@ -35,73 +105,17 @@
       "category": "Best for compute-intensive workloads",
       "vmSku": "Standard_F2as_v6"
     },
+    "pricePerformance": {
+      "ratio": 489500.63,
+      "category": "Best cost efficiency",
+      "monthlyCost": 56.79,
+      "vmSku": "Standard_B2as_v2"
+    },
     "scalingEfficiency": {
       "efficiency": 97.7,
       "score": 62022.939591999995,
       "category": "Best multi-core scaling",
       "vmSku": "Standard_F2as_v6"
     }
-  },
-  "comparisons": {
-    "byVersion": [
-      {
-        "avgCost": 63.56,
-        "avgScore": 34644.0,
-        "count": 3,
-        "avgPricePerf": 404667.15,
-        "version": "v2"
-      },
-      {
-        "avgCost": 86.14,
-        "avgScore": 34235.0,
-        "count": 4,
-        "avgPricePerf": 295638.83,
-        "version": "v4"
-      },
-      {
-        "avgCost": 81.94,
-        "avgScore": 37122.0,
-        "count": 4,
-        "avgPricePerf": 338035.84,
-        "version": "v5"
-      },
-      {
-        "avgCost": 90.37,
-        "avgScore": 51019.0,
-        "count": 5,
-        "avgPricePerf": 418296.34,
-        "version": "v6"
-      }
-    ],
-    "bySeries": [
-      {
-        "avgCost": 59.93,
-        "avgScore": 37092.0,
-        "count": 2,
-        "avgPricePerf": 453668.64,
-        "series": "B-series"
-      },
-      {
-        "avgCost": 73.24,
-        "avgScore": 39884.0,
-        "count": 6,
-        "avgPricePerf": 397922.57,
-        "series": "D-series"
-      },
-      {
-        "avgCost": 96.36,
-        "avgScore": 39866.0,
-        "count": 6,
-        "avgPricePerf": 302305.05,
-        "series": "E-series"
-      },
-      {
-        "avgCost": 88.7,
-        "avgScore": 45885.0,
-        "count": 2,
-        "avgPricePerf": 365739.4,
-        "series": "F-series"
-      }
-    ]
   }
 }

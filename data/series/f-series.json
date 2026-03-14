@@ -1,49 +1,49 @@
 {
-  "metadata": {
-    "count": 2,
-    "generated": "2026-03-14T18:22:37.2910958Z",
-    "series": "F-series"
-  },
   "results": [
     {
-      "performance": {
-        "singleCore": {
-          "perDollar": 217507.62,
-          "score": 31756.113052
-        },
-        "scalingEfficiency": 97.7,
-        "multiCore": {
-          "perDollar": 424814.65,
-          "score": 62022.939591999995
-        }
-      },
       "pricing": {
         "monthly": 106.58,
-        "currency": "USD",
-        "hourly": 0.146
+        "hourly": 0.146,
+        "currency": "USD"
+      },
+      "performance": {
+        "scalingEfficiency": 97.7,
+        "singleCore": {
+          "score": 31756.113052,
+          "perDollar": 217507.62
+        },
+        "multiCore": {
+          "score": 62022.939591999995,
+          "perDollar": 424814.65
+        }
       },
       "version": "v6",
       "vmSku": "Standard_F2as_v6"
     },
     {
-      "performance": {
-        "singleCore": {
-          "perDollar": 234817.67,
-          "score": 22777.313795
-        },
-        "scalingEfficiency": 65.3,
-        "multiCore": {
-          "perDollar": 306664.15,
-          "score": 29746.422367
-        }
-      },
       "pricing": {
         "monthly": 70.81,
-        "currency": "USD",
-        "hourly": 0.097
+        "hourly": 0.097,
+        "currency": "USD"
+      },
+      "performance": {
+        "scalingEfficiency": 65.3,
+        "singleCore": {
+          "score": 22777.313795,
+          "perDollar": 234817.67
+        },
+        "multiCore": {
+          "score": 29746.422367,
+          "perDollar": 306664.15
+        }
       },
       "version": "v2",
       "vmSku": "Standard_F2s_v2"
     }
-  ]
+  ],
+  "metadata": {
+    "count": 2,
+    "generated": "2026-03-14T21:41:39.4070127Z",
+    "series": "F-series"
+  }
 }

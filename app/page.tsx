@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { getBenchmarks, getSummary } from '@/lib/data';
 import { metricInfo } from '@/components/Tooltip';
 import SummaryCards from '@/components/SummaryCards';
@@ -23,6 +24,7 @@ export default function Home() {
             <a href="#charts" className="hover:text-gray-200 transition-colors">Charts</a>
             <a href="#table" className="hover:text-gray-200 transition-colors">Table</a>
             <a href="#series" className="hover:text-gray-200 transition-colors">Series</a>
+            <Link href="/methodology" className="hover:text-gray-200 transition-colors">Methodology</Link>
           </nav>
         </div>
       </header>
@@ -111,18 +113,37 @@ export default function Home() {
         </section>
 
         {/* Methodology */}
-        <section className="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
+        <section id="methodology" className="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
           <h2 className="text-xl font-bold mb-3">Methodology</h2>
-          <div className="text-sm text-gray-400 space-y-2 max-w-3xl">
+          <div className="text-sm text-gray-400 space-y-3 max-w-3xl">
             <p>
               All VMs are benchmarked using <strong className="text-gray-300">EEMBC CoreMark 1.0</strong>, the industry-standard
-              CPU performance benchmark. Each VM runs CoreMark with two parallel instances to test multi-core throughput.
+              CPU performance benchmark. Each VM runs CoreMark with two parallel threads to test multi-core throughput.
             </p>
             <p>
               Tests run on <strong className="text-gray-300">Windows Server 2025</strong> in <strong className="text-gray-300">Sweden Central</strong> using
               MinGW-w64 GCC with <code className="text-gray-300 bg-gray-800 px-1 rounded">-O3 -march=native</code> optimizations.
               Pricing uses Linux pay-as-you-go rates from the Azure Retail Prices API.
             </p>
+            <div className="grid sm:grid-cols-2 gap-3 mt-2">
+              <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-3">
+                <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Constraints</div>
+                <div className="text-gray-300 text-xs space-y-1">
+                  <div>2 vCPUs &middot; Single region &middot; Same OS</div>
+                  <div>Isolates CPU architecture differences only</div>
+                </div>
+              </div>
+              <div className="bg-gray-800/50 border border-gray-700 rounded-lg p-3">
+                <div className="text-xs text-gray-500 uppercase tracking-wide mb-1">Workflow</div>
+                <div className="text-gray-300 text-xs space-y-1">
+                  <div>Provision VM &rarr; Build CoreMark &rarr; Run &rarr; Upload &rarr; Delete</div>
+                  <div>~7-12 min per VM, fully automated</div>
+                </div>
+              </div>
+            </div>
+            <Link href="/methodology" className="inline-flex items-center gap-1 text-blue-400 hover:underline text-sm mt-2">
+              Read full methodology &rarr;
+            </Link>
           </div>
         </section>
 

@@ -1,6 +1,6 @@
     # Azure VM Performance Comparison
     
-    **Generated:** 2026-03-14 17:11:18 UTC  
+    **Generated:** 2026-03-14 17:18:38 UTC  
     **Total VMs Tested:** 16
     
     ## Executive Summary

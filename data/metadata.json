@@ -1,16 +1,26 @@
 {
-  "generated": "2026-03-14T17:18:43.9189371Z",
-  "availableSeries": [],
+  "generated": "2026-03-14T18:22:37.2910958Z",
+  "availableSeries": [
+    "B-series",
+    "D-series",
+    "E-series",
+    "F-series"
+  ],
   "counts": {
     "totalVms": 16,
-    "versions": 1,
-    "series": 1
+    "versions": 4,
+    "series": 4
   },
-  "lastUpdated": "2026-03-14T17:18:43.9189371Z",
+  "lastUpdated": "2026-03-14T18:22:37.2910958Z",
   "dataFreshness": {
     "daysOld": 0,
     "isRecent": true
   },
-  "availableVersions": [],
+  "availableVersions": [
+    "v6",
+    "v5",
+    "v4",
+    "v2"
+  ],
   "dataVersion": "1.0"
 }

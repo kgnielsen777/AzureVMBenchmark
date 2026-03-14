@@ -1,6 +1,6 @@
     # Azure VM Performance Comparison
     
-    **Generated:** 2026-03-14 17:18:38 UTC  
+    **Generated:** 2026-03-14 18:22:09 UTC  
     **Total VMs Tested:** 16
     
     ## Executive Summary
@@ -87,13 +87,19 @@
     
     | Series | Avg Multi-Core Score | Avg Price/month | Avg Price-Performance |
     |--------|---------------------|-----------------|----------------------|
-|  | 40278 | $82.18 | 365011.36 |    
+| F-series | 45885 | $88.7 | 365739.4 |
+| D-series | 39884 | $73.24 | 397922.57 |
+| E-series | 39866 | $96.36 | 302305.05 |
+| B-series | 37092 | $59.93 | 453668.64 |    
     
     ### Performance by Generation
     
     | Version | Avg Multi-Core Score | Avg Price/month | Avg Price-Performance |
     |---------|---------------------|-----------------|----------------------|
-|  | 40278 | $82.18 | 365011.36 |    
+| v6 | 51019 | $90.37 | 418296.34 |
+| v5 | 37122 | $81.94 | 338035.84 |
+| v4 | 34235 | $86.14 | 295638.83 |
+| v2 | 34644 | $63.56 | 404667.15 |    
     
     ## Visualizations
     

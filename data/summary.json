@@ -14,7 +14,7 @@
   },
   "metadata": {
     "totalVms": 16,
-    "generated": "2026-03-14T17:18:43.9189371Z"
+    "generated": "2026-03-14T18:22:37.2910958Z"
   },
   "bestPerformers": {
     "pricePerformance": {
@@ -45,20 +45,62 @@
   "comparisons": {
     "byVersion": [
       {
-        "avgCost": 82.18,
-        "avgScore": 40278.0,
-        "count": 16,
-        "avgPricePerf": 365011.36,
-        "version": ""
+        "avgCost": 63.56,
+        "avgScore": 34644.0,
+        "count": 3,
+        "avgPricePerf": 404667.15,
+        "version": "v2"
+      },
+      {
+        "avgCost": 86.14,
+        "avgScore": 34235.0,
+        "count": 4,
+        "avgPricePerf": 295638.83,
+        "version": "v4"
+      },
+      {
+        "avgCost": 81.94,
+        "avgScore": 37122.0,
+        "count": 4,
+        "avgPricePerf": 338035.84,
+        "version": "v5"
+      },
+      {
+        "avgCost": 90.37,
+        "avgScore": 51019.0,
+        "count": 5,
+        "avgPricePerf": 418296.34,
+        "version": "v6"
       }
     ],
     "bySeries": [
       {
-        "avgCost": 82.18,
-        "avgScore": 40278.0,
-        "count": 16,
-        "avgPricePerf": 365011.36,
-        "series": ""
+        "avgCost": 59.93,
+        "avgScore": 37092.0,
+        "count": 2,
+        "avgPricePerf": 453668.64,
+        "series": "B-series"
+      },
+      {
+        "avgCost": 73.24,
+        "avgScore": 39884.0,
+        "count": 6,
+        "avgPricePerf": 397922.57,
+        "series": "D-series"
+      },
+      {
+        "avgCost": 96.36,
+        "avgScore": 39866.0,
+        "count": 6,
+        "avgPricePerf": 302305.05,
+        "series": "E-series"
+      },
+      {
+        "avgCost": 88.7,
+        "avgScore": 45885.0,
+        "count": 2,
+        "avgPricePerf": 365739.4,
+        "series": "F-series"
       }
     ]
   }

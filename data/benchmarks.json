@@ -3,7 +3,7 @@
     "totalVms": 16,
     "dataVersion": "1.0",
     "source": "Azure VM Benchmark Platform",
-    "generated": "2026-03-14T17:18:43.9189371Z"
+    "generated": "2026-03-14T18:22:37.2910958Z"
   },
   "results": [
     {
@@ -12,8 +12,8 @@
         "currency": "USD",
         "hourly": 0.0778
       },
-      "version": null,
-      "series": null,
+      "version": "v2",
+      "series": "B-series",
       "vmSku": "Standard_B2as_v2",
       "performance": {
         "singleCore": {
@@ -39,8 +39,8 @@
         "currency": "USD",
         "hourly": 0.097
       },
-      "version": null,
-      "series": null,
+      "version": "v6",
+      "series": "D-series",
       "vmSku": "Standard_D2as_v6",
       "performance": {
         "singleCore": {
@@ -66,8 +66,8 @@
         "currency": "USD",
         "hourly": 0.107
       },
-      "version": null,
-      "series": null,
+      "version": "v6",
+      "series": "D-series",
       "vmSku": "Standard_D2s_v6",
       "performance": {
         "singleCore": {
@@ -93,8 +93,8 @@
         "currency": "USD",
         "hourly": 0.146
       },
-      "version": null,
-      "series": null,
+      "version": "v6",
+      "series": "F-series",
       "vmSku": "Standard_F2as_v6",
       "performance": {
         "singleCore": {
@@ -120,8 +120,8 @@
         "currency": "USD",
         "hourly": 0.0864
       },
-      "version": null,
-      "series": null,
+      "version": "v2",
+      "series": "B-series",
       "vmSku": "Standard_B2s_v2",
       "performance": {
         "singleCore": {
@@ -147,8 +147,8 @@
         "currency": "USD",
         "hourly": 0.092
       },
-      "version": null,
-      "series": null,
+      "version": "v5",
+      "series": "D-series",
       "vmSku": "Standard_D2as_v5",
       "performance": {
         "singleCore": {
@@ -174,8 +174,8 @@
         "currency": "USD",
         "hourly": 0.102
       },
-      "version": null,
-      "series": null,
+      "version": "v4",
+      "series": "D-series",
       "vmSku": "Standard_D2as_v4",
       "performance": {
         "singleCore": {
@@ -201,8 +201,8 @@
         "currency": "USD",
         "hourly": 0.128
       },
-      "version": null,
-      "series": null,
+      "version": "v6",
+      "series": "E-series",
       "vmSku": "Standard_E2as_v6",
       "performance": {
         "singleCore": {
@@ -228,8 +228,8 @@
         "currency": "USD",
         "hourly": 0.102
       },
-      "version": null,
-      "series": null,
+      "version": "v5",
+      "series": "D-series",
       "vmSku": "Standard_D2s_v5",
       "performance": {
         "singleCore": {
@@ -255,8 +255,8 @@
         "currency": "USD",
         "hourly": 0.141
       },
-      "version": null,
-      "series": null,
+      "version": "v6",
+      "series": "E-series",
       "vmSku": "Standard_E2s_v6",
       "performance": {
         "singleCore": {
@@ -282,8 +282,8 @@
         "currency": "USD",
         "hourly": 0.121
       },
-      "version": null,
-      "series": null,
+      "version": "v5",
+      "series": "E-series",
       "vmSku": "Standard_E2as_v5",
       "performance": {
         "singleCore": {
@@ -309,8 +309,8 @@
         "currency": "USD",
         "hourly": 0.097
       },
-      "version": null,
-      "series": null,
+      "version": "v2",
+      "series": "F-series",
       "vmSku": "Standard_F2s_v2",
       "performance": {
         "singleCore": {
@@ -336,8 +336,8 @@
         "currency": "USD",
         "hourly": 0.102
       },
-      "version": null,
-      "series": null,
+      "version": "v4",
+      "series": "D-series",
       "vmSku": "Standard_D2s_v4",
       "performance": {
         "singleCore": {
@@ -363,8 +363,8 @@
         "currency": "USD",
         "hourly": 0.134
       },
-      "version": null,
-      "series": null,
+      "version": "v4",
+      "series": "E-series",
       "vmSku": "Standard_E2as_v4",
       "performance": {
         "singleCore": {
@@ -390,8 +390,8 @@
         "currency": "USD",
         "hourly": 0.134
       },
-      "version": null,
-      "series": null,
+      "version": "v5",
+      "series": "E-series",
       "vmSku": "Standard_E2s_v5",
       "performance": {
         "singleCore": {
@@ -417,8 +417,8 @@
         "currency": "USD",
         "hourly": 0.134
       },
-      "version": null,
-      "series": null,
+      "version": "v4",
+      "series": "E-series",
       "vmSku": "Standard_E2s_v4",
       "performance": {
         "singleCore": {

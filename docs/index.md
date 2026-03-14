@@ -29,7 +29,7 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 <!-- INDEX_START -->
     ## Benchmark Results
     
-    **Last Updated:** 2026-03-13 21:54:51 UTC
+    **Last Updated:** 2026-03-14 10:32:51 UTC
     
     ### Performance Leaders
     
@@ -37,21 +37,21 @@ Each VM is provisioned fresh, benchmarked, and torn down automatically. Results 
 
 | Rank | VM SKU | CoreMark Score | Monthly Cost |
 |------|--------|----------------|--------------|
-| 1 | Standard_D2s_v6 | 49437.653565 | $78.11 |
-| 2 | Standard_E2s_v6 | 49200.532036 | $102.93 |
-| 3 | Standard_D2as_v6 | 47236.660329 | $70.81 |
-| 4 | Standard_E2as_v6 | 47195.784135 | $93.44 |
-| 5 | Standard_E2as_v4 | 38333.760672 | $97.82 |
+| 1 | Standard_F2as_v6 | 62022.939592 | $106.58 |
+| 2 | Standard_D2s_v6 | 49437.653565 | $78.11 |
+| 3 | Standard_E2s_v6 | 49200.532036 | $102.93 |
+| 4 | Standard_D2as_v6 | 47236.660329 | $70.81 |
+| 5 | Standard_E2as_v6 | 47195.784135 | $93.44 |
 
 #### Top 5 by Cost Efficiency
 
 | Rank | VM SKU | Iter/sec per $ | Monthly Cost |
 |------|--------|----------------|--------------|
-| 1 | Standard_D2as_v6 | 486975.88 | $70.81 |
-| 2 | Standard_D2s_v6 | 462034.15 | $78.11 |
-| 3 | Standard_D2as_v5 | 409798.61 | $67.16 |
-| 4 | Standard_D2as_v4 | 371302.26 | $74.46 |
-| 5 | Standard_E2as_v6 | 368717.06 | $93.44 |
+| 1 | Standard_B2as_v2 | 489500.63 | $56.79 |
+| 2 | Standard_D2as_v6 | 486975.88 | $70.81 |
+| 3 | Standard_D2s_v6 | 462034.15 | $78.11 |
+| 4 | Standard_F2as_v6 | 424814.65 | $106.58 |
+| 5 | Standard_B2s_v2 | 417836.66 | $63.07 |
 
 [View Full Report](docs/comparison.md)
 

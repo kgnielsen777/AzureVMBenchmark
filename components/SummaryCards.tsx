@@ -2,7 +2,8 @@
 
 import { SummaryData } from '@/lib/types';
 import { formatNumber, formatCurrency } from '@/lib/data';
-import Tooltip, { metricInfo } from '@/components/Tooltip';
+import Tooltip from '@/components/Tooltip';
+import { metricInfo } from '@/lib/data';
 
 interface SummaryCardsProps {
   summary: SummaryData;

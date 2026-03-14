@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getBenchmarks, getSummary } from '@/lib/data';
-import { metricInfo } from '@/components/Tooltip';
+import { metricInfo } from '@/lib/data';
 import SummaryCards from '@/components/SummaryCards';
 import BarChart from '@/components/BarChart';
 import BenchmarkTable from '@/components/BenchmarkTable';

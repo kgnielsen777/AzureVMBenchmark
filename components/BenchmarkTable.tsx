@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { BenchmarkResult, SortField, SortDirection } from '@/lib/types';
 import { formatNumber, formatCurrency, shortSku, skuChipType } from '@/lib/data';
-import Tooltip, { metricInfo } from '@/components/Tooltip';
+import Tooltip from '@/components/Tooltip';
+import { metricInfo } from '@/lib/data';
 
 interface BenchmarkTableProps {
   data: BenchmarkResult[];

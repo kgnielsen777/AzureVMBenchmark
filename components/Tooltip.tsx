@@ -46,14 +46,4 @@ export default function Tooltip({ text, children }: TooltipProps) {
   );
 }
 
-export const metricInfo = {
-  multiCore: 'Aggregate CPU throughput with all vCPUs running CoreMark in parallel. Higher score = more total compute capacity.',
-  singleCore: 'One thread running CoreMark — measures raw per-core speed, independent of core count. Higher is faster.',
-  pricePerf: 'Multi-core score ÷ hourly cost. Higher means more compute per dollar spent — the best measure of value.',
-  scaling: 'How well additional cores contribute: (multi-core ÷ (single-core × vCPUs)) × 100%. Above 90% is excellent.',
-  monthly: 'Estimated monthly cost using Linux pay-as-you-go rates from Azure Retail Prices API (730 hours/month).',
-  iterSec: 'CoreMark iterations/sec — how many times the CPU completes the full CoreMark workload in one second. Higher = faster CPU.',
-  bestPerf: 'VM with the highest multi-core CoreMark score — best for compute-intensive workloads.',
-  bestPricePerf: 'VM with the highest iterations/sec per dollar — the best overall value for your money.',
-  mostAffordable: 'VM with the lowest monthly cost while still delivering competitive performance.',
-};
+export { metricInfo } from '@/lib/data';

@@ -260,22 +260,6 @@ export default function MethodologyPage() {
           </div>
         </section>
 
-        {/* Reproducibility */}
-        <section className="space-y-4">
-          <h2 className="text-2xl font-bold text-gray-100">Reproducibility</h2>
-          <div className="bg-gray-900/50 border border-gray-800 rounded-xl p-6">
-            <p className="text-sm text-gray-400 mb-4">Anyone can reproduce these benchmarks:</p>
-            <ol className="text-sm text-gray-400 space-y-2 list-decimal list-inside">
-              <li>Clone the <a href="https://github.com/kgnielsen777/AzureVMBenchmarkBackend" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline">backend repository</a></li>
-              <li>Configure VMs in <code className="text-gray-300 bg-gray-800 px-1 rounded">src/config/vm-config.json</code></li>
-              <li>Deploy infrastructure with <code className="text-gray-300 bg-gray-800 px-1 rounded">deploy-infrastructure.ps1</code></li>
-              <li>Run <code className="text-gray-300 bg-gray-800 px-1 rounded">Start-BenchmarkPlatform.ps1</code> from the runner VM</li>
-              <li>Results are automatically published to GitHub Pages</li>
-            </ol>
-            <p className="text-xs text-gray-500 mt-4">All scripts, Bicep templates, and configurations are open source and auditable.</p>
-          </div>
-        </section>
-
         {/* Footer */}
         <footer className="border-t border-gray-800 pt-6 pb-8 text-center text-sm text-gray-500">
           <Link href="/" className="text-blue-400 hover:underline">&larr; Back to Dashboard</Link>

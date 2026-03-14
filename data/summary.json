@@ -1,0 +1,65 @@
+{
+  "aggregates": {
+    "scoreRange": {
+      "min": 29746.422367,
+      "max": 62022.939591999995
+    },
+    "averageScore": 40278.0,
+    "priceRange": {
+      "min": 56.79,
+      "max": 106.58
+    },
+    "averageMonthlyCost": 82.18,
+    "averagePricePerformance": 365011.36
+  },
+  "metadata": {
+    "totalVms": 16,
+    "generated": "2026-03-14T16:30:28.8275365Z"
+  },
+  "bestPerformers": {
+    "pricePerformance": {
+      "monthlyCost": 56.79,
+      "ratio": 489500.63,
+      "category": "Best cost efficiency",
+      "vmSku": "Standard_B2as_v2"
+    },
+    "mostAffordable": {
+      "score": 38083.148821,
+      "monthlyCost": 56.79,
+      "category": "Most budget-friendly",
+      "vmSku": "Standard_B2as_v2"
+    },
+    "rawPerformance": {
+      "monthlyCost": 106.58,
+      "score": 62022.939591999995,
+      "category": "Best for compute-intensive workloads",
+      "vmSku": "Standard_F2as_v6"
+    },
+    "scalingEfficiency": {
+      "efficiency": 97.7,
+      "score": 62022.939591999995,
+      "category": "Best multi-core scaling",
+      "vmSku": "Standard_F2as_v6"
+    }
+  },
+  "comparisons": {
+    "byVersion": [
+      {
+        "avgCost": 82.18,
+        "avgScore": 40278.0,
+        "count": 16,
+        "avgPricePerf": 365011.36,
+        "version": ""
+      }
+    ],
+    "bySeries": [
+      {
+        "avgCost": 82.18,
+        "avgScore": 40278.0,
+        "count": 16,
+        "avgPricePerf": 365011.36,
+        "series": ""
+      }
+    ]
+  }
+}
